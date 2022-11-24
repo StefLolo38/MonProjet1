@@ -3,14 +3,15 @@
         list-style-type: none;
         font-family: Arial, Helvetica, sans-serif;
         box-sizing: border-box;
+        text-decoration: none;
+        
     }
     
 body {
-    display: flex;
     background-image:url(assets/fondblé2.png);
-    height:100vh;
     background-repeat: no-repeat;
-
+    background-size: cover;
+    height: 18vh;
 }
 
 nav {
@@ -24,7 +25,7 @@ nav {
     text-align: center;
  }
 
- nav ul li {
+ nav ul li a {
     color: aliceblue;
     display: inline-block;
     font-size: 25px;
@@ -32,7 +33,7 @@ nav {
     text-align: center;
  }
 
- nav ul li :hover{
+ nav ul li a:hover {
     color: rgb(101,166,85);
  }
 
@@ -56,6 +57,7 @@ nav {
 
  span {
     font-size: 25px;
+    
  }
  
 .image2 {

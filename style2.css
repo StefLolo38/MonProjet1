@@ -5,41 +5,50 @@
     box-sizing: border-box;
 }
 
-body{
-    background-image: url(assets/champs2.png);
+
+/* background image */
+
+body {
+    background-image: url(assets/champsfond.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+/* navbar menu */
+
 nav {
-    width: 100vw;
-    background-attachment: fixed;
+    position: fixed;
     background-color: aliceblue;
+    width: 100vw;
+    height: 10vh;
+    top: 0%;
     
 }
  nav ul {
     display: flex;
     justify-content: space-around;
-    text-align: center;
+    background-attachment: fixed;
  }
 
- nav ul li {
+ nav ul li a {
+    background-attachment: fixed;
     color: rgb(101,166,85);
     display: inline-block;
     font-size: 25px;
     font-weight: bold;
-    text-align: center;
+    padding-top: 3vh;
  }
 
- nav ul li:hover{
+ nav ul li a:hover{
     color: rgb(0,0,0);
  }
 
+ /* definition text */
+
 .def {
     display: block;
-    margin: 5vw 20vh;
-    
+    margin: 6vw 20vh;
  }
 
  h2 {
@@ -49,11 +58,65 @@ nav {
 
  p {
     font-size: 25px;
+    line-height: 40px;
  }
 
-div, text2 {
+.deftext {
     margin: 5vw 20vh;
-    
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+ }
+ .ptext {
+   padding-right: 15rem;
+ }
+ .role {
+   display: block;
+   margin: 5vw 20vh;
+ }
+ .txtvig {
+   display: block;
+   margin: 0vw 20vh;
+ }
+ .vignettes {
+   display: flex;
+   justify-content: space-between;
+ }
+ .alim {
+   padding-right: 10rem;
+   padding-bottom: 5rem;
+ }
+ .container {
+   display: flex;
+   justify-content: space-around;
+ }
+ .liste {
+   margin-right: 12rem;
+   width: 40%;
+   font-size: 35px;
+   border: solid 2px black;
+   line-height: 65px;
+   background-color: rgb(101,166,85,0.6);
+ }
+ .liste ul li {
+list-style-type: disc;
+ }
+ .vig {
+   border: solid 2px black;
+ }
+ .intotxt {
+  display: block;
+  padding-right: 12rem;
+ }
+ .bloctxt {
+  display: flex;
+  margin: 5vw 20vh;
+  justify-content: space-between;
+ }
+ .epistop {
+  margin-right: 4rem;
+  margin-top: 7rem;
+ }
+ .imgepi {
+  width: 20vw;
+  height: 60vh;
  }
