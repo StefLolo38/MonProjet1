@@ -60,6 +60,7 @@ h2 {
 p {
   font-size: 25px;
   line-height: 40px;
+  font-weight: bold;
 }
 
 .deftext {
@@ -69,12 +70,12 @@ p {
 }
 
 .ptext {
-  padding-right: 10rem;
+  padding-right: 8rem;
 }
 
 .image3 {
-  width: 30vw;
-  height: 75vh;
+  width: 25vw;
+  height: 55vh;
 }
 
 .ingestion {
@@ -98,7 +99,6 @@ p {
 }
 
 .alim {
-  padding-right: 10rem;
   padding-bottom: 5rem;
 }
 
@@ -107,9 +107,9 @@ p {
   justify-content: space-around;
 }
 
-.liste {
+.liste ul {
   margin-right: 8rem;
-  width: 30rem;
+  width: 15rem;
   font-size: 20px;
   border: solid 2px black;
   line-height: 65px;
@@ -126,7 +126,7 @@ p {
 
 .intotxt {
   display: block;
-  padding-right: 12rem;
+  padding-right: 2rem;
 }
 
 .bloctxt {
@@ -136,12 +136,12 @@ p {
 }
 
 .epistop {
-  margin-top: 12rem;
+  margin-top: 9rem;
 }
 
 .imgepi {
-  width: 22vw;
-  height: 55vh;
+  width: 25vw;
+  height: 40vh;
 }
 
 .para {
@@ -174,7 +174,7 @@ section {
   margin-top: 7rem;
 }
 p {
-  font-size: 25px;
+  font-size: 20px;
 }
 article {
   display: flex;
@@ -182,3 +182,8 @@ article {
   margin-top: 5rem;
   margin-bottom: 5rem;
 } 
+.wiki {
+  padding-right: 5rem;
+  font-size: 15px;
+  font-weight: bold;
+}
