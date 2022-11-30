@@ -19,7 +19,7 @@ body {
 
 nav {
     position: fixed;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     width: 100vw;
     height: 10vh;
     top: 0%;
@@ -64,10 +64,18 @@ nav {
 .deftext {
     margin: 5vw 20vh;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
  }
  .ptext {
-   padding-right: 15rem;
+   padding-right: 10rem;
+ }
+ .image3{
+  width: 30vw;
+  height: 75vh;
+ }
+ .ingestion{
+  width: 80%;
+  margin: auto;
  }
  .role {
    display: block;
@@ -90,9 +98,9 @@ nav {
    justify-content: space-around;
  }
  .liste {
-   margin-right: 12rem;
-   width: 40%;
-   font-size: 35px;
+   margin-right: 8rem;
+   width: 30rem;
+   font-size: 20px;
    border: solid 2px black;
    line-height: 65px;
    background-color: rgb(101,166,85,0.6);
@@ -113,10 +121,29 @@ list-style-type: disc;
   justify-content: space-between;
  }
  .epistop {
-  margin-right: 4rem;
-  margin-top: 7rem;
+  margin-top: 12rem;
  }
  .imgepi {
-  width: 20vw;
-  height: 60vh;
+  width: 22vw;
+  height: 55vh;
+ }
+ .para {
+width: 80%;
+margin: auto;
+ }
+ .sympt {
+  display: flex;
+  justify-content: space-around;
+  font-size: 25px;
+  margin-bottom: 10vh;
+ }
+ .anemie ul li {
+list-style-type: disc;
+ }
+ .trouble ul li {
+  list-style-type: disc;
+ }
+ .titlesympt{
+  margin-left: 10vw;
+  margin-top: 8vh;
  }
