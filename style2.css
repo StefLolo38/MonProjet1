@@ -45,6 +45,40 @@ nav ul li a:hover {
   color: rgb(0, 0, 0);
 }
 
+.navbar-mobile {
+  display: none;
+}
+
+.navbar-mobile i {
+  position: fixed;
+  z-index: 9999;
+  top: 25px;
+  right: 55px;
+  font-size: 3rem;
+  color:white;
+  width: 50px;
+  height: 50px;
+}
+
+.navbar-mobile .navbar-mobile-list {
+  display: flex;
+  height: 53vh;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-mobile .navbar-mobile-list a {
+  font-size: 1rem;
+  font-weight: 900;
+  color: black;
+  padding: 1rem;
+  border-bottom: solid black;
+  background-color: rgb(101, 166, 85);
+  opacity: 0.9;
+}
+
 /* definition text */
 
 .def {
@@ -190,4 +224,100 @@ article {
   padding-right: 5rem;
   font-size: 15px;
   font-weight: bold;
+}
+
+@media screen and (max-width : 700px) {
+
+  nav {
+     display: none;
+  }
+
+  .navbar-mobile {
+     display: block;
+     
+  }
+
+  section {
+    display: block;
+    margin: 1rem;
+  }
+
+  article {
+    display: block;
+    margin: 1rem;
+  }
+
+  .def {
+    margin: 1rem;
+    padding-right: 0px;
+    padding-left: 25px;
+  }
+
+  .deftext {
+    display: block;
+    margin: 1rem;
+  }
+
+  .ptext {
+    padding-right: 0px;
+    padding-left: 25px;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .image3{
+   margin-left: 25px;
+   width: 210px;
+  }
+  .ingestion {
+    margin: 1rem;
+    padding-right: 0px;
+    padding-left: 25px;
+  }
+  .role{
+    margin: 1rem;
+    padding-right: 0px;
+    padding-left: 25px;
+  }
+  .container {
+    display: block;
+  }
+  .txtvig{
+    display: block;
+    margin: 1rem;
+    padding-left:10px; 
+  }
+  .alim {
+    padding-right: 0px;
+    padding-left: 15px;
+    padding-bottom: 0px;
+  }
+  .vignettes{
+    display: block;
+    margin: 1rem;
+    padding: 10px;
+  }
+  .liste{
+    margin: 1rem;
+    padding: 15px;
+  }
+  .bloctxt{
+    display: block;
+    margin: 1rem;
+  }
+  .intotxt{
+    padding-right: 0px;
+    padding-left: 20px;
+  }
+  .imgepi{
+    width: 210px;
+    padding-right: 0px;
+    margin-left: 25px;
+  }
+  .epistop{
+    margin-top: 0px;
+  }
+  .sympt{
+    display: block;
+    margin: 1rem;
+  }
 }
