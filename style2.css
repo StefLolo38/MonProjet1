@@ -168,20 +168,24 @@ p {
   margin-left: 10vw;
   margin-top: 8vh;
 }
+
 section {
   display: flex;
   justify-content: space-around;
   margin-top: 7rem;
 }
+
 p {
   font-size: 20px;
 }
+
 article {
   display: flex;
   justify-content: center;
   margin-top: 5rem;
   margin-bottom: 5rem;
-} 
+}
+
 .wiki {
   padding-right: 5rem;
   font-size: 15px;
