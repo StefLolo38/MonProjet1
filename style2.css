@@ -61,7 +61,6 @@ nav ul li a:hover {
 }
 
 .navbar-mobile .navbar-mobile-list {
- position: absolute;
   display: flex;
   height: 53vh;
   width: 100%;
@@ -235,6 +234,7 @@ article {
 
   .navbar-mobile {
      display: block;
+     
   }
 
   section {
@@ -246,5 +246,78 @@ article {
     display: block;
     margin: 1rem;
   }
- 
+
+  .def {
+    margin: 1rem;
+    padding-right: 0px;
+    padding-left: 25px;
+  }
+
+  .deftext {
+    display: block;
+    margin: 1rem;
+  }
+
+  .ptext {
+    padding-right: 0px;
+    padding-left: 25px;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .image3{
+   margin-left: 25px;
+   width: 210px;
+  }
+  .ingestion {
+    margin: 1rem;
+    padding-right: 0px;
+    padding-left: 25px;
+  }
+  .role{
+    margin: 1rem;
+    padding-right: 0px;
+    padding-left: 25px;
+  }
+  .container {
+    display: block;
+  }
+  .txtvig{
+    display: block;
+    margin: 1rem;
+    padding-left:10px; 
+  }
+  .alim {
+    padding-right: 0px;
+    padding-left: 15px;
+    padding-bottom: 0px;
+  }
+  .vignettes{
+    display: block;
+    margin: 1rem;
+    padding: 10px;
+  }
+  .liste{
+    margin: 1rem;
+    padding: 15px;
+  }
+  .bloctxt{
+    display: block;
+    margin: 1rem;
+  }
+  .intotxt{
+    padding-right: 0px;
+    padding-left: 20px;
+  }
+  .imgepi{
+    width: 210px;
+    padding-right: 0px;
+    margin-left: 25px;
+  }
+  .epistop{
+    margin-top: 0px;
+  }
+  .sympt{
+    display: block;
+    margin: 1rem;
+  }
 }
