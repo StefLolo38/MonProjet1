@@ -55,7 +55,7 @@ nav ul li a:hover {
   top: 25px;
   right: 55px;
   font-size: 3rem;
-  color:white;
+  color: white;
   width: 50px;
   height: 50px;
 }
@@ -229,12 +229,12 @@ article {
 @media screen and (max-width : 700px) {
 
   nav {
-     display: none;
+    display: none;
   }
 
   .navbar-mobile {
-     display: block;
-     
+    display: block;
+
   }
 
   section {
@@ -264,60 +264,75 @@ article {
     font-size: 20px;
     line-height: 25px;
   }
-  .image3{
-   margin-left: 25px;
-   width: 210px;
+
+  .image3 {
+    margin-left: 25px;
+    width: 210px;
   }
+
   .ingestion {
     margin: 1rem;
     padding-right: 0px;
     padding-left: 25px;
   }
-  .role{
+
+  .role {
     margin: 1rem;
     padding-right: 0px;
     padding-left: 25px;
   }
+
   .container {
     display: block;
   }
-  .txtvig{
+
+  .txtvig {
     display: block;
     margin: 1rem;
-    padding-left:10px; 
+    padding-left: 10px;
   }
+
   .alim {
     padding-right: 0px;
     padding-left: 15px;
     padding-bottom: 0px;
   }
-  .vignettes{
+
+  .vignettes {
     display: block;
     margin: 1rem;
     padding: 10px;
   }
-  .liste{
+
+  .liste {
     margin: 1rem;
     padding: 15px;
   }
-  .bloctxt{
+
+  .bloctxt {
     display: block;
     margin: 1rem;
   }
-  .intotxt{
+
+  .intotxt {
     padding-right: 0px;
     padding-left: 20px;
   }
-  .imgepi{
+
+  .imgepi {
     width: 210px;
     padding-right: 0px;
     margin-left: 25px;
   }
-  .epistop{
+
+  .epistop {
     margin-top: 0px;
   }
-  .sympt{
+
+  .sympt {
     display: block;
     margin: 1rem;
+    background-color: rgb(101, 166, 85);
+    opacity: 0.7;
   }
 }
