@@ -1,0 +1,372 @@
+* {
+  margin: 0;
+  list-style-type: none;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+/* background image */
+
+body {
+  background-image: url(assets/champsfond.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* navbar menu */
+
+nav {
+  position: fixed;
+  background-color: rgb(255, 255, 255);
+  width: 100vw;
+  height: 10vh;
+  top: 0%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  background-attachment: fixed;
+}
+
+nav ul li a {
+  background-attachment: fixed;
+  color: rgb(101, 166, 85);
+  display: inline-block;
+  font-size: 25px;
+  font-weight: bold;
+  padding-top: 3vh;
+}
+
+nav ul li a:hover {
+  color: rgb(0, 0, 0);
+}
+
+.navbar-mobile {
+  display: none;
+}
+
+i {
+  position: fixed;
+  z-index: 10;
+  top: 15px;
+  right: 25px;
+  font-size: 3rem;
+  color: black;
+  width: 50px;
+}
+
+.navbar-mobile .modal{
+   background-color: rgb(101, 166, 85);
+   height: 100vh;
+  position:fixed;
+  top: 10;
+  left: 0;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.modal {
+   transition: top 0.9s;
+   background-color: rgb(101, 166, 85);
+   height: 100vh;
+   position: absolute;
+   top: -100vh;
+   left: 0;
+   width: 100%;
+   opacity: 0.9;
+ }
+
+.change-modal{
+   top:0;
+}
+
+.navbar-mobile .navbar-mobile-list {
+  display: flex;
+  height: 53vh;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-mobile .navbar-mobile-list a {
+  font-size: 1rem;
+  font-weight: 900;
+  color: black;
+  padding: 1rem;
+  border-bottom: solid black;
+  background-color: rgb(101, 166, 85);
+  opacity: 0.9;
+}
+
+/* definition text */
+
+.def {
+  display: block;
+  margin: 6vw 20vh;
+}
+
+h2 {
+  font-size: 35px;
+  padding-bottom: 40px;
+}
+
+p {
+  font-size: 25px;
+  line-height: 40px;
+  font-weight: bold;
+}
+
+.deftext {
+  margin: 5vw 20vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.ptext {
+  padding-right: 8rem;
+}
+
+.image3 {
+  width: 25vw;
+  height: 55vh;
+}
+
+.ingestion {
+  width: 80%;
+  margin: auto;
+}
+
+.role {
+  display: block;
+  margin: 5vw 20vh;
+}
+
+.txtvig {
+  display: block;
+  margin: 0vw 20vh;
+}
+
+.vignettes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.alim {
+  padding-bottom: 5rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.liste ul {
+  margin-right: 8rem;
+  width: 15rem;
+  font-size: 20px;
+  border: solid 2px black;
+  line-height: 65px;
+  background-color: rgb(101, 166, 85, 0.6);
+}
+
+.liste ul li {
+  list-style-type: disc;
+}
+
+.vig {
+  border: solid 2px black;
+}
+
+.intotxt {
+  display: block;
+  padding-right: 2rem;
+}
+
+.bloctxt {
+  display: flex;
+  margin: 5vw 20vh;
+  justify-content: space-between;
+}
+
+.epistop {
+  margin-top: 9rem;
+}
+
+.imgepi {
+  width: 25vw;
+  height: 40vh;
+}
+
+.para {
+  width: 80%;
+  margin: auto;
+}
+
+.sympt {
+  display: flex;
+  justify-content: space-around;
+  font-size: 25px;
+  margin-bottom: 10vh;
+}
+
+.anemie ul li {
+  list-style-type: disc;
+}
+
+.trouble ul li {
+  list-style-type: disc;
+}
+
+.titlesympt {
+  margin-left: 10vw;
+  margin-top: 8vh;
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 7rem;
+}
+
+p {
+  font-size: 20px;
+}
+
+article {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.wiki {
+  padding-right: 5rem;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 700px) {
+  nav {
+    display: none;
+  }
+
+  .navbar-mobile {
+    display: block;
+  }
+
+  .modal {
+    background-color: rgb(101, 166, 85);
+    height: 100vh;
+    position: fixed;
+    top: -100vh;
+    left: 0;
+    width: 100%;
+    opacity: 0.9;
+  }
+
+  .change-modal {
+    top: 0;
+  }
+
+  section {
+    display: block;
+    margin: 1rem;
+  }
+
+  article {
+    display: block;
+    margin: 1rem;
+  }
+
+  .def {
+    margin: 1rem;
+    padding-right: 0px;
+    padding-left: 25px;
+  }
+
+  .deftext {
+    display: block;
+    margin: 1rem;
+  }
+
+  .ptext {
+    padding-right: 0px;
+    padding-left: 25px;
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .image3 {
+    margin-left: 25px;
+    width: 210px;
+  }
+
+  .ingestion {
+    margin: 1rem;
+    padding-right: 0px;
+    padding-left: 25px;
+  }
+
+  .role {
+    margin: 1rem;
+    padding-right: 0px;
+    padding-left: 25px;
+  }
+
+  .container {
+    display: block;
+  }
+
+  .txtvig {
+    display: block;
+    margin: 1rem;
+    padding-left: 10px;
+  }
+
+  .alim {
+    padding-right: 0px;
+    padding-left: 15px;
+    padding-bottom: 0px;
+  }
+
+  .vignettes {
+    display: block;
+    margin: 1rem;
+    padding: 10px;
+  }
+
+  .liste {
+    margin: 1rem;
+    padding: 15px;
+  }
+
+  .bloctxt {
+    display: block;
+    margin: 1rem;
+  }
+
+  .intotxt {
+    padding-right: 0px;
+    padding-left: 20px;
+  }
+
+  .imgepi {
+    width: 210px;
+    padding-right: 0px;
+    margin-left: 25px;
+  }
+
+  .epistop {
+    margin-top: 0px;
+  }
+
+  .sympt {
+    display: block;
+    margin: 1rem;
+    background-color: rgb(101, 166, 85);
+    opacity: 0.7;
+  }
+}
