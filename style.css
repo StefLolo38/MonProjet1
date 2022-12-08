@@ -40,7 +40,7 @@ nav ul li a:hover {
   display: none;
 }
 
- i {
+i {
   position: fixed;
   z-index: 10;
   top: 15px;
@@ -50,10 +50,10 @@ nav ul li a:hover {
   width: 50px;
 }
 
-.navbar-mobile .modal{
-   background-color: rgb(101, 166, 85);
-   height: 100vh;
-  position:fixed;
+.navbar-mobile .modal {
+  background-color: rgb(101, 166, 85);
+  height: 100vh;
+  position: fixed;
   top: 10;
   left: 0;
   width: 100%;
@@ -61,21 +61,19 @@ nav ul li a:hover {
 }
 
 .modal {
-   transition: top 0.9s;
-   background-color: rgb(101, 166, 85);
-   height: 100vh;
-   position: absolute;
-   top: -100vh;
-   left: 0;
-   width: 100%;
-   opacity: 0.9;
- }
-
-.change-modal{
-   top:0;
+  transition: top 0.9s;
+  background-color: rgb(101, 166, 85);
+  height: 100vh;
+  position: absolute;
+  top: -100vh;
+  left: 0;
+  width: 100%;
+  opacity: 0.9;
 }
 
-
+.change-modal {
+  top: 0;
+}
 
 .navbar-mobile .navbar-mobile-list {
   display: flex;
@@ -103,6 +101,7 @@ section {
 
 .texte {
   display: block;
+  padding-right: 3rem;
 }
 
 .ensemble {
@@ -119,9 +118,12 @@ span {
 }
 
 .image2 {
-  width: 75vh;
+  width: 60vh;
   margin: auto;
-  padding-left: 5rem;
+ 
+}
+.image2:hover {
+  box-shadow: 10px 5px 5px black;
 }
 
 @media screen and (max-width: 700px) {
@@ -132,7 +134,7 @@ span {
   .navbar-mobile {
     display: block;
   }
-  
+
   .ensemble {
     flex-direction: column;
   }
