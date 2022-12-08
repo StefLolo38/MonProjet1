@@ -57,10 +57,10 @@ i {
   width: 50px;
 }
 
-.navbar-mobile .modal{
-   background-color: rgb(101, 166, 85);
-   height: 100vh;
-  position:fixed;
+.navbar-mobile .modal {
+  background-color: rgb(101, 166, 85);
+  height: 100vh;
+  position: fixed;
   top: 10;
   left: 0;
   width: 100%;
@@ -68,18 +68,18 @@ i {
 }
 
 .modal {
-   transition: top 0.9s;
-   background-color: rgb(101, 166, 85);
-   height: 100vh;
-   position: absolute;
-   top: -100vh;
-   left: 0;
-   width: 100%;
-   opacity: 0.9;
- }
+  transition: top 0.9s;
+  background-color: rgb(101, 166, 85);
+  height: 100vh;
+  position: absolute;
+  top: -100vh;
+  left: 0;
+  width: 100%;
+  opacity: 0.9;
+}
 
-.change-modal{
-   top:0;
+.change-modal {
+  top: 0;
 }
 
 .navbar-mobile .navbar-mobile-list {
@@ -132,6 +132,10 @@ p {
 .image3 {
   width: 25vw;
   height: 55vh;
+}
+
+.image3:hover {
+  box-shadow: 10px 5px 5px black;
 }
 
 .ingestion {
@@ -198,6 +202,7 @@ p {
 .imgepi {
   width: 25vw;
   height: 40vh;
+  box-shadow: 10px 5px 5px;
 }
 
 .para {
@@ -248,12 +253,27 @@ article {
   font-weight: bold;
 }
 
-.bouton{
+.bouton {
   border: solid black 2px;
   border-radius: 40px;
   background-color: rgb(101, 166, 85);
   font-size: 15px;
   width: 100%;
+}
+
+.bouton:hover {
+  background-color: white;
+  font-size: 25px;
+}
+
+.frame1 :hover {
+  box-shadow: 10px 5px 5px;
+}
+.frame2 :hover {
+  box-shadow: 10px 5px 5px;
+}
+.frame3 :hover {
+  box-shadow: 10px 5px 5px;
 }
 
 @media screen and (max-width: 700px) {
