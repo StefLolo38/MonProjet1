@@ -44,7 +44,7 @@ i {
   position: fixed;
   z-index: 10;
   top: 15px;
-  right: 25px;
+  right: 35px;
   font-size: 3rem;
   color: black;
   width: 50px;
@@ -84,7 +84,7 @@ i {
 }
 
 .navbar-mobile .navbar-mobile-list a {
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 800;
   color: black;
   padding: 1rem;
@@ -102,6 +102,7 @@ section {
 .texte {
   display: block;
   padding-right: 3rem;
+  margin-left: 2rem;
 }
 
 .ensemble {
@@ -120,7 +121,6 @@ span {
 .image2 {
   width: 60vh;
   margin: auto;
- 
 }
 .image2:hover {
   box-shadow: 10px 5px 5px black;
@@ -137,9 +137,10 @@ span {
 
   .ensemble {
     flex-direction: column;
+    margin-left: 2rem;
   }
 
   .image2 {
-    padding: 15px;
+    padding: 1px;
   }
 }
